@@ -16,7 +16,8 @@ IF '%pilihan%' == '%pilihan%' GOTO Item_%pilihan%
 start /MIN /DC:\Windows\System32 notepad.exe
 GOTO Start
 :Item_2
-start /MIN /DC:\Windows\System32 calc.exe
+rem start /MIN /DC:\Windows\System32 calc.exe
+echo 2*2
 GOTO Start
 :Item_3
 start /MIN /D"C:\Program Files\Microsoft Office\Office12" WINWORD.EXE
